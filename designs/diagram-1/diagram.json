@@ -1,5 +1,66 @@
 {
   "version": 1,
-  "shapes": [],
+  "shapes": [
+    {
+      "id": "68680b22-f154-42e9-ae7f-e44833ad6310",
+      "name": "",
+      "position": {
+        "x": 762,
+        "y": 173,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
+    },
+    {
+      "id": "f0579837-2367-493d-9d26-f9a09b4fc035",
+      "name": "",
+      "position": {
+        "x": 733,
+        "y": 31.5,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
+    },
+    {
+      "id": "90539f51-695f-483b-a86e-7dae849b9527",
+      "name": "",
+      "position": {
+        "x": 470.5,
+        "y": 88.75,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
+    },
+    {
+      "id": "5b0b4504-3638-444e-997e-07b6e4092a7b",
+      "name": "",
+      "position": {
+        "x": 587.25,
+        "y": -167.25,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
+    },
+    {
+      "id": "384e94a8-c9ce-4939-9749-f1ca1b560c09",
+      "name": "",
+      "position": {
+        "x": 339.25,
+        "y": -138.625,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
+    }
+  ],
   "dialect": "postgres"
 }
