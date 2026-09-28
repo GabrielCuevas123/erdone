@@ -470,7 +470,7 @@
     },
     {
       "id": "eac2c0c0-6966-44cb-bd20-a157dde7ef1d",
-      "name": "Tipo de dato",
+      "name": "Tipo de fuente",
       "position": {
         "x": 576.3410182874446,
         "y": -26.025382390603824,
@@ -482,7 +482,7 @@
           "id": "55d8fd79-b708-49ea-a763-5cf8d4a98ac1",
           "sequence": 1,
           "key": "PK",
-          "property": "IdFuente",
+          "property": "Id",
           "type": "INTEGER",
           "length": null,
           "precision": null,
