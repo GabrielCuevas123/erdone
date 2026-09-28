@@ -482,7 +482,7 @@
           "id": "55d8fd79-b708-49ea-a763-5cf8d4a98ac1",
           "sequence": 1,
           "key": "PK",
-          "property": "Id",
+          "property": "IdTipodeFuente",
           "type": "INTEGER",
           "length": null,
           "precision": null,
