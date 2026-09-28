@@ -51,14 +51,26 @@
     },
     {
       "id": "384e94a8-c9ce-4939-9749-f1ca1b560c09",
-      "name": "",
+      "name": "Cliente",
       "position": {
         "x": 339.25,
         "y": -138.625,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24",
+          "sequence": 1,
+          "key": null,
+          "property": "",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
