@@ -47,7 +47,7 @@
         {
           "id": "7068ec56-47dd-4621-8f14-b283a84615dd",
           "sequence": 4,
-          "key": null,
+          "key": "FK",
           "property": "IdFuente",
           "type": "INTEGER",
           "length": null,
@@ -160,6 +160,30 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "745e5a54-0a83-42bd-8005-5cb1b3e8b5de",
+          "source": {
+            "id": "7068ec56-47dd-4621-8f14-b283a84615dd"
+          },
+          "reference": {
+            "id": "79718086-d9c6-4644-acb6-459273831fce"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "79718086-d9c6-4644-acb6-459273831fce"
+              },
+              "source": {
+                "id": "7068ec56-47dd-4621-8f14-b283a84615dd"
+              }
+            }
+          ],
+          "parentRequired": false,
+          "referencePin": {
+            "side": "left",
+            "t": 0.6311006349825028
+          }
         }
       ],
       "indexes": [
@@ -189,6 +213,15 @@
               "columnId": "1e215bdc-c5d0-4af1-8197-a804e339a7b8"
             }
           ]
+        },
+        {
+          "id": "55423934-bf4d-4e04-a964-3ac9695a96c1",
+          "name": "IX_Surveys_IdFuente",
+          "keyColumns": [
+            {
+              "columnId": "7068ec56-47dd-4621-8f14-b283a84615dd"
+            }
+          ]
         }
       ]
     },
@@ -196,8 +229,8 @@
       "id": "f0579837-2367-493d-9d26-f9a09b4fc035",
       "name": "Fuente de Datos",
       "position": {
-        "x": 818.2069326459276,
-        "y": -348.13542797589446,
+        "x": 859.2073935566027,
+        "y": -349.1354392176182,
         "w": 200,
         "h": 80
       },
@@ -277,8 +310,8 @@
       "id": "5b0b4504-3638-444e-997e-07b6e4092a7b",
       "name": "Categoria",
       "position": {
-        "x": 517.7502023510281,
-        "y": -354.25105110117363,
+        "x": 426.74917935416397,
+        "y": -398.25154573701997,
         "w": 200,
         "h": 80
       },
@@ -358,8 +391,8 @@
       "id": "f41b7589-d32e-46ca-9586-97602e0b64d9",
       "name": "Producto",
       "position": {
-        "x": 496.72490725698583,
-        "y": 135.66272880748215,
+        "x": 587.7259302538499,
+        "y": 227.6637630460701,
         "w": 200,
         "h": 80
       },
@@ -436,8 +469,8 @@
       "id": "456979da-8b01-4dfa-9d87-d65a5401f993",
       "name": "Social Comments",
       "position": {
-        "x": 1132.881217059799,
-        "y": -151.0767544722535,
+        "x": 1194.8819140466733,
+        "y": -126.07647342915895,
         "w": 200,
         "h": 80
       },
@@ -605,8 +638,8 @@
       "id": "ca9ff365-a4f0-4907-86dc-ed1d0bcf20d2",
       "name": "Web Reviews",
       "position": {
-        "x": 1032.657077145761,
-        "y": 179.70854986449163,
+        "x": 1235.6593592156887,
+        "y": 146.7081788876068,
         "w": 200,
         "h": 80
       },
@@ -697,7 +730,8 @@
               }
             }
           ],
-          "parentRequired": false
+          "parentRequired": false,
+          "middleOffset": 0.3873860570178329
         },
         {
           "id": "7e12ff66-d893-4f7f-8c9e-fd0e66f36e4f",
@@ -717,7 +751,12 @@
               }
             }
           ],
-          "parentRequired": false
+          "parentRequired": false,
+          "middleOffset": 0.4177343945748797,
+          "referencePin": {
+            "side": "right",
+            "t": 0.9268652077173438
+          }
         }
       ],
       "indexes": [
@@ -745,8 +784,8 @@
       "id": "eac2c0c0-6966-44cb-bd20-a157dde7ef1d",
       "name": "Tipo de fuente",
       "position": {
-        "x": 1189.347909464123,
-        "y": -311.02858628188176,
+        "x": 1203.348066848256,
+        "y": -309.02856379843416,
         "w": 200,
         "h": 80
       },
@@ -793,7 +832,8 @@
               }
             }
           ],
-          "parentRequired": false
+          "parentRequired": false,
+          "middleOffset": 0.2520514071506739
         }
       ]
     }
