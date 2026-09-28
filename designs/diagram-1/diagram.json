@@ -277,8 +277,8 @@
       "id": "5b0b4504-3638-444e-997e-07b6e4092a7b",
       "name": "Categoria",
       "position": {
-        "x": 499.75,
-        "y": -260.75,
+        "x": 517.7502023510281,
+        "y": -354.25105110117363,
         "w": 200,
         "h": 80
       },
@@ -535,7 +535,7 @@
         {
           "id": "b9d01ff2-1f7f-41ec-a563-9e680c28ffc8",
           "sequence": 2,
-          "key": null,
+          "key": "FK",
           "property": "IdCliente",
           "type": "INTEGER",
           "length": null,
@@ -608,6 +608,26 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "7e12ff66-d893-4f7f-8c9e-fd0e66f36e4f",
+          "source": {
+            "id": "b9d01ff2-1f7f-41ec-a563-9e680c28ffc8"
+          },
+          "reference": {
+            "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
+              },
+              "source": {
+                "id": "b9d01ff2-1f7f-41ec-a563-9e680c28ffc8"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "indexes": [
@@ -617,6 +637,15 @@
           "keyColumns": [
             {
               "columnId": "1ef7abe5-e21a-4efc-830d-21ced88f0422"
+            }
+          ]
+        },
+        {
+          "id": "632a41fd-60f4-461d-ba6c-c9ce5440ec0c",
+          "name": "IX_Web Reviews_IdCliente",
+          "keyColumns": [
+            {
+              "columnId": "b9d01ff2-1f7f-41ec-a563-9e680c28ffc8"
             }
           ]
         }
