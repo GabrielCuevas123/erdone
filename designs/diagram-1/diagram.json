@@ -324,7 +324,7 @@
           "id": "589f75b2-af1f-4f13-9c93-dfe5935d0c30",
           "sequence": 1,
           "key": "PK",
-          "property": "IdCommentario",
+          "property": "IdComentario",
           "type": "INTEGER",
           "length": null,
           "precision": null,
