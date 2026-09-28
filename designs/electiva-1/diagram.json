@@ -838,5 +838,5 @@
       ]
     }
   ],
-  "dialect": "postgres"
+  "dialect": "tsql"
 }
