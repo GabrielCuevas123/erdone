@@ -263,6 +263,42 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "f41b7589-d32e-46ca-9586-97602e0b64d9",
+      "name": "",
+      "position": {
+        "x": 422.5039716351612,
+        "y": -30.096494433716288,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
+    },
+    {
+      "id": "456979da-8b01-4dfa-9d87-d65a5401f993",
+      "name": "",
+      "position": {
+        "x": 422.5039716351612,
+        "y": 97.90350556628371,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
+    },
+    {
+      "id": "ca9ff365-a4f0-4907-86dc-ed1d0bcf20d2",
+      "name": "",
+      "position": {
+        "x": 855.9333261393865,
+        "y": 6.4670402572577075,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "postgres"
