@@ -25,7 +25,7 @@
         {
           "id": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e",
           "sequence": 2,
-          "key": null,
+          "key": "FK",
           "property": "IdCliente",
           "type": "INTEGER",
           "length": null,
@@ -36,7 +36,7 @@
         {
           "id": "1e215bdc-c5d0-4af1-8197-a804e339a7b8",
           "sequence": 3,
-          "key": null,
+          "key": "FK",
           "property": "IdProducto",
           "type": "INTEGER",
           "length": null,
@@ -58,7 +58,7 @@
         {
           "id": "d01fbda9-3969-4909-bb80-1e2343b94202",
           "sequence": 5,
-          "key": null,
+          "key": "FK",
           "property": "IdClasificacion",
           "type": "INTEGER",
           "length": null,
@@ -100,7 +100,97 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "54105387-3b4e-4df9-b15c-ee1f831071d0",
+          "source": {
+            "id": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e"
+          },
+          "reference": {
+            "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
+              },
+              "source": {
+                "id": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e"
+              }
+            }
+          ],
+          "parentRequired": false
+        },
+        {
+          "id": "8ab3ed33-3fb7-4d70-b0d0-4cbd3a0f761c",
+          "source": {
+            "id": "d01fbda9-3969-4909-bb80-1e2343b94202"
+          },
+          "reference": {
+            "id": "32b0d839-8243-4850-8ff8-7ec0c2fd3c53"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "32b0d839-8243-4850-8ff8-7ec0c2fd3c53"
+              },
+              "source": {
+                "id": "d01fbda9-3969-4909-bb80-1e2343b94202"
+              }
+            }
+          ],
+          "parentRequired": false
+        },
+        {
+          "id": "22dab60a-fc3c-4037-b8e0-6711a7a912fb",
+          "source": {
+            "id": "1e215bdc-c5d0-4af1-8197-a804e339a7b8"
+          },
+          "reference": {
+            "id": "88b5a151-884b-488a-8467-387e7b4c072d"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "88b5a151-884b-488a-8467-387e7b4c072d"
+              },
+              "source": {
+                "id": "1e215bdc-c5d0-4af1-8197-a804e339a7b8"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "83d2e9a2-17bf-4860-9d98-b1f3b2c5ef87",
+          "name": "IX_Surveys_IdCliente",
+          "keyColumns": [
+            {
+              "columnId": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e"
+            }
+          ]
+        },
+        {
+          "id": "5fd1347a-6a02-4007-97a9-b59d016d696f",
+          "name": "IX_Surveys_IdClasificacion",
+          "keyColumns": [
+            {
+              "columnId": "d01fbda9-3969-4909-bb80-1e2343b94202"
+            }
+          ]
+        },
+        {
+          "id": "c1065e94-838b-4930-be50-5a7f629b43dd",
+          "name": "IX_Surveys_IdProducto",
+          "keyColumns": [
+            {
+              "columnId": "1e215bdc-c5d0-4af1-8197-a804e339a7b8"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "f0579837-2367-493d-9d26-f9a09b4fc035",
@@ -152,8 +242,8 @@
       "id": "90539f51-695f-483b-a86e-7dae849b9527",
       "name": "Clasificacion",
       "position": {
-        "x": 254.80313531018945,
-        "y": -133.6552478045192,
+        "x": 256.80315779363707,
+        "y": -63.65446088385444,
         "w": 200,
         "h": 80
       },
@@ -262,35 +352,14 @@
           "isNotNull": true
         }
       ],
-      "relationships": [
-        {
-          "id": "b60e6783-89cc-45cc-a713-34c83db21bb8",
-          "source": {
-            "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
-          },
-          "reference": {
-            "id": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e"
-          },
-          "columnPairs": [
-            {
-              "reference": {
-                "id": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e"
-              },
-              "source": {
-                "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
-              }
-            }
-          ],
-          "parentRequired": false
-        }
-      ]
+      "relationships": []
     },
     {
       "id": "f41b7589-d32e-46ca-9586-97602e0b64d9",
       "name": "Producto",
       "position": {
-        "x": 501.7249634656048,
-        "y": 139.66277377437729,
+        "x": 496.72490725698583,
+        "y": 135.66272880748215,
         "w": 200,
         "h": 80
       },
