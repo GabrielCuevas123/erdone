@@ -467,6 +467,18 @@
         }
       ],
       "relationships": []
+    },
+    {
+      "id": "eac2c0c0-6966-44cb-bd20-a157dde7ef1d",
+      "name": "Tipo de dato",
+      "position": {
+        "x": 576.3410182874446,
+        "y": -26.025382390603824,
+        "w": 200,
+        "h": 80
+      },
+      "properties": [],
+      "relationships": []
     }
   ],
   "dialect": "postgres"
