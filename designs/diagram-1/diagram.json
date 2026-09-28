@@ -238,12 +238,12 @@
         {
           "id": "79718086-d9c6-4644-acb6-459273831fce",
           "sequence": 1,
-          "key": null,
+          "key": "PK",
           "property": "IdFuente",
           "type": "INTEGER",
           "length": null,
           "precision": null,
-          "isPrimary": false,
+          "isPrimary": true,
           "isNotNull": true
         },
         {
