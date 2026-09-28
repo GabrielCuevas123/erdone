@@ -266,38 +266,206 @@
     },
     {
       "id": "f41b7589-d32e-46ca-9586-97602e0b64d9",
-      "name": "",
+      "name": "Producto",
       "position": {
-        "x": 422.5039716351612,
-        "y": -30.096494433716288,
+        "x": 501.7249634656048,
+        "y": 139.66277377437729,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "88b5a151-884b-488a-8467-387e7b4c072d",
+          "sequence": 1,
+          "key": "PK",
+          "property": "IdProducto",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "d99569b6-3bdf-4d47-b6dc-c4d058fde66e",
+          "sequence": 2,
+          "key": null,
+          "property": "Nombre",
+          "type": "VARCHAR",
+          "length": 60,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7c13fede-0f3b-49b7-929c-47a446659461",
+          "sequence": 3,
+          "key": null,
+          "property": "IdCategoria",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     },
     {
       "id": "456979da-8b01-4dfa-9d87-d65a5401f993",
-      "name": "",
+      "name": "Social Comments",
       "position": {
-        "x": 422.5039716351612,
-        "y": 97.90350556628371,
+        "x": 1132.881217059799,
+        "y": -151.0767544722535,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "589f75b2-af1f-4f13-9c93-dfe5935d0c30",
+          "sequence": 1,
+          "key": "PK",
+          "property": "IdCommentario",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "da3d43f3-b11f-433a-9686-f512bded0544",
+          "sequence": 2,
+          "key": null,
+          "property": "IdCliente",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "2357ce93-1f8c-4647-abcd-ebcff698b272",
+          "sequence": 3,
+          "key": null,
+          "property": "IdProducto",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1e737dad-3e3c-41ac-802c-e730d04c323c",
+          "sequence": 4,
+          "key": null,
+          "property": "IdFuente",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "bda74068-64d1-4c40-9385-2954c8ef9f07",
+          "sequence": 5,
+          "key": null,
+          "property": "Fecha",
+          "type": "DATE",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "835f2c33-8c15-4936-854f-53dbfbefe275",
+          "sequence": 6,
+          "key": null,
+          "property": "Comentario",
+          "type": "VARCHAR",
+          "length": 60,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     },
     {
       "id": "ca9ff365-a4f0-4907-86dc-ed1d0bcf20d2",
-      "name": "",
+      "name": "Web Reviews",
       "position": {
-        "x": 855.9333261393865,
-        "y": 6.4670402572577075,
+        "x": 1032.657077145761,
+        "y": 179.70854986449163,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "9633d7b8-7d14-4a91-b1bb-bca2d1653330",
+          "sequence": 1,
+          "key": "PK",
+          "property": "IdReview",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "b9d01ff2-1f7f-41ec-a563-9e680c28ffc8",
+          "sequence": 2,
+          "key": null,
+          "property": "IdCliente",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1ef7abe5-e21a-4efc-830d-21ced88f0422",
+          "sequence": 3,
+          "key": null,
+          "property": "IdProducto",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "24f5bbcd-1c6c-4bb1-9f2f-42ef5328a6bf",
+          "sequence": 4,
+          "key": null,
+          "property": "Fecha",
+          "type": "DATE",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "e093557e-5bea-42f8-9030-e625e2308035",
+          "sequence": 5,
+          "key": null,
+          "property": "Comentario",
+          "type": "VARCHAR",
+          "length": 60,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "5eba2a1e-1bc2-4420-82ec-198cdba5e1b7",
+          "sequence": 6,
+          "key": null,
+          "property": "Rating",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
