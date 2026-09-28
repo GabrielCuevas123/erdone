@@ -477,7 +477,41 @@
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "55d8fd79-b708-49ea-a763-5cf8d4a98ac1",
+          "sequence": 1,
+          "key": "PK",
+          "property": "IdFuente",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "b337538e-0324-4758-a2f6-8fd0175df713",
+          "sequence": 2,
+          "key": null,
+          "property": "NombreFuente",
+          "type": "VARCHAR",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "2ad44e9e-da4d-4cf5-b735-8ab64420c072",
+          "sequence": 3,
+          "key": null,
+          "property": "Id",
+          "type": "",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     }
   ],
