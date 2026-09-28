@@ -138,7 +138,7 @@
           "id": "0a5f790a-8fba-4935-8f4d-d952f020e24f",
           "sequence": 3,
           "key": null,
-          "property": "IdFuente",
+          "property": "IdTipodeFuente",
           "type": "INTEGER",
           "length": null,
           "precision": null,
@@ -472,8 +472,8 @@
       "id": "eac2c0c0-6966-44cb-bd20-a157dde7ef1d",
       "name": "Tipo de fuente",
       "position": {
-        "x": 576.3410182874446,
-        "y": -26.025382390603824,
+        "x": 603.3413218139867,
+        "y": -34.02547232439408,
         "w": 200,
         "h": 80
       },
