@@ -5,12 +5,101 @@
       "id": "68680b22-f154-42e9-ae7f-e44833ad6310",
       "name": "Surveys",
       "position": {
-        "x": 552.1973142456341,
-        "y": -35.061584627773684,
+        "x": 72.52395386946962,
+        "y": 135.56632577826667,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "55abba60-e5e1-4ffc-ab58-6535172817d1",
+          "sequence": 1,
+          "key": "PK",
+          "property": "IdSurvey",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e",
+          "sequence": 2,
+          "key": null,
+          "property": "IdCliente",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1e215bdc-c5d0-4af1-8197-a804e339a7b8",
+          "sequence": 3,
+          "key": null,
+          "property": "IdProducto",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "7068ec56-47dd-4621-8f14-b283a84615dd",
+          "sequence": 4,
+          "key": null,
+          "property": "IdFuente",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "d01fbda9-3969-4909-bb80-1e2343b94202",
+          "sequence": 5,
+          "key": null,
+          "property": "IdClasificacion",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "95c2f6a5-6b6f-4827-9d65-7439ee355915",
+          "sequence": 6,
+          "key": null,
+          "property": "Fecha",
+          "type": "DATE",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "0798e29e-3a3b-46ea-9b92-816fcfe209f8",
+          "sequence": 7,
+          "key": null,
+          "property": "Comentario",
+          "type": "VARCHAR",
+          "length": 60,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "57319c1d-e03f-40cd-a622-5893fce2b486",
+          "sequence": 8,
+          "key": null,
+          "property": "PuntajeClasificacion",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     },
     {
@@ -63,8 +152,8 @@
       "id": "90539f51-695f-483b-a86e-7dae849b9527",
       "name": "Clasificacion",
       "position": {
-        "x": 74.3994937002634,
-        "y": -67.07855083000624,
+        "x": 44.80077454819519,
+        "y": -76.6546070262636,
         "w": 200,
         "h": 80
       },
@@ -133,8 +222,8 @@
       "id": "384e94a8-c9ce-4939-9749-f1ca1b560c09",
       "name": "Cliente",
       "position": {
-        "x": 154.29852803145118,
-        "y": -291.018213519107,
+        "x": 143.8519212718977,
+        "y": -292.75931464569925,
         "w": 200,
         "h": 80
       },
