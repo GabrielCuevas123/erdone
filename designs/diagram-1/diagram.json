@@ -5,8 +5,8 @@
       "id": "68680b22-f154-42e9-ae7f-e44833ad6310",
       "name": "",
       "position": {
-        "x": 762,
-        "y": 173,
+        "x": 552.1973142456341,
+        "y": -35.061584627773684,
         "w": 200,
         "h": 80
       },
@@ -15,46 +15,126 @@
     },
     {
       "id": "f0579837-2367-493d-9d26-f9a09b4fc035",
-      "name": "",
+      "name": "Fuente de Datos",
       "position": {
-        "x": 733,
-        "y": 31.5,
+        "x": 839.2071687221271,
+        "y": -260.1344387042016,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "79718086-d9c6-4644-acb6-459273831fce",
+          "sequence": 1,
+          "key": null,
+          "property": "IdFuente",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "1e46cc3b-9c45-4ace-9602-d0e8f953347d",
+          "sequence": 2,
+          "key": null,
+          "property": "FechaCarga",
+          "type": "DATE",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "0a5f790a-8fba-4935-8f4d-d952f020e24f",
+          "sequence": 3,
+          "key": null,
+          "property": "IdTipodeDato",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     },
     {
       "id": "90539f51-695f-483b-a86e-7dae849b9527",
-      "name": "",
+      "name": "Clasificacion",
       "position": {
-        "x": 470.5,
-        "y": 88.75,
+        "x": 74.3994937002634,
+        "y": -67.07855083000624,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "32b0d839-8243-4850-8ff8-7ec0c2fd3c53",
+          "sequence": 1,
+          "key": "PK",
+          "property": "IdClasificacion",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "589a7eda-7133-4382-963c-e34572a213c6",
+          "sequence": 2,
+          "key": null,
+          "property": "NombreClasificacion",
+          "type": "VARCHAR",
+          "length": 60,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     },
     {
       "id": "5b0b4504-3638-444e-997e-07b6e4092a7b",
-      "name": "",
+      "name": "Categoria",
       "position": {
-        "x": 587.25,
-        "y": -167.25,
+        "x": 499.75,
+        "y": -260.75,
         "w": 200,
         "h": 80
       },
-      "properties": [],
+      "properties": [
+        {
+          "id": "d3cb2a91-2c22-4d20-a0ff-6d9a31589d6f",
+          "sequence": 1,
+          "key": "PK",
+          "property": "IdCategoria",
+          "type": "INTEGER",
+          "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "364fd9d1-6ced-4182-a033-c0f395a53fec",
+          "sequence": 2,
+          "key": null,
+          "property": "NombreCategoria",
+          "type": "VARCHAR",
+          "length": 60,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        }
+      ],
       "relationships": []
     },
     {
       "id": "384e94a8-c9ce-4939-9749-f1ca1b560c09",
       "name": "Cliente",
       "position": {
-        "x": 339.25,
-        "y": -138.625,
+        "x": 154.29852803145118,
+        "y": -291.018213519107,
         "w": 200,
         "h": 80
       },
@@ -62,10 +142,32 @@
         {
           "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24",
           "sequence": 1,
-          "key": null,
-          "property": "",
-          "type": "",
+          "key": "PK",
+          "property": "IdCliente",
+          "type": "INTEGER",
           "length": null,
+          "precision": null,
+          "isPrimary": true,
+          "isNotNull": true
+        },
+        {
+          "id": "035637da-6d1f-4b5f-b4bc-c7347ce72b60",
+          "sequence": 2,
+          "key": null,
+          "property": "Nombre",
+          "type": "VARCHAR",
+          "length": 60,
+          "precision": null,
+          "isPrimary": false,
+          "isNotNull": true
+        },
+        {
+          "id": "845ef04c-de18-41da-b0b4-8eca7032145c",
+          "sequence": 3,
+          "key": null,
+          "property": "Email",
+          "type": "VARCHAR",
+          "length": 60,
           "precision": null,
           "isPrimary": false,
           "isNotNull": true
