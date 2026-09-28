@@ -546,7 +546,7 @@
         {
           "id": "1ef7abe5-e21a-4efc-830d-21ced88f0422",
           "sequence": 3,
-          "key": null,
+          "key": "FK",
           "property": "IdProducto",
           "type": "INTEGER",
           "length": null,
@@ -588,7 +588,39 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "82b4d34f-4a2f-465d-b3d9-dda45d728569",
+          "source": {
+            "id": "1ef7abe5-e21a-4efc-830d-21ced88f0422"
+          },
+          "reference": {
+            "id": "88b5a151-884b-488a-8467-387e7b4c072d"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "88b5a151-884b-488a-8467-387e7b4c072d"
+              },
+              "source": {
+                "id": "1ef7abe5-e21a-4efc-830d-21ced88f0422"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "016ef9fc-915c-4ec7-af79-c4582faba6ef",
+          "name": "IX_Web Reviews_IdProducto",
+          "keyColumns": [
+            {
+              "columnId": "1ef7abe5-e21a-4efc-830d-21ced88f0422"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "eac2c0c0-6966-44cb-bd20-a157dde7ef1d",
