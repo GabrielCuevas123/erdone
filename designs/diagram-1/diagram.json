@@ -196,8 +196,8 @@
       "id": "f0579837-2367-493d-9d26-f9a09b4fc035",
       "name": "Fuente de Datos",
       "position": {
-        "x": 839.2071687221271,
-        "y": -260.1344387042016,
+        "x": 818.2069326459276,
+        "y": -348.13542797589446,
         "w": 200,
         "h": 80
       },
@@ -684,7 +684,28 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "1b49d083-9086-4319-b3ad-955eccd239e8",
+          "source": {
+            "id": "55d8fd79-b708-49ea-a763-5cf8d4a98ac1"
+          },
+          "reference": {
+            "id": "0a5f790a-8fba-4935-8f4d-d952f020e24f"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "0a5f790a-8fba-4935-8f4d-d952f020e24f"
+              },
+              "source": {
+                "id": "55d8fd79-b708-49ea-a763-5cf8d4a98ac1"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ]
     }
   ],
   "dialect": "postgres"
