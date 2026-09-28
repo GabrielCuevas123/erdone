@@ -152,8 +152,8 @@
       "id": "90539f51-695f-483b-a86e-7dae849b9527",
       "name": "Clasificacion",
       "position": {
-        "x": 44.80077454819519,
-        "y": -76.6546070262636,
+        "x": 254.80313531018945,
+        "y": -133.6552478045192,
         "w": 200,
         "h": 80
       },
@@ -262,7 +262,28 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "b60e6783-89cc-45cc-a713-34c83db21bb8",
+          "source": {
+            "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
+          },
+          "reference": {
+            "id": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "9d9efbcc-92f1-4d25-b6c8-cb2ac770535e"
+              },
+              "source": {
+                "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ]
     },
     {
       "id": "f41b7589-d32e-46ca-9586-97602e0b64d9",
