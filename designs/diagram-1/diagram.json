@@ -478,7 +478,7 @@
         {
           "id": "1e737dad-3e3c-41ac-802c-e730d04c323c",
           "sequence": 4,
-          "key": null,
+          "key": "FK",
           "property": "IdFuente",
           "type": "INTEGER",
           "length": null,
@@ -549,6 +549,26 @@
             }
           ],
           "parentRequired": false
+        },
+        {
+          "id": "eed8f7a3-2974-4869-aadc-7f4234c4dee1",
+          "source": {
+            "id": "1e737dad-3e3c-41ac-802c-e730d04c323c"
+          },
+          "reference": {
+            "id": "79718086-d9c6-4644-acb6-459273831fce"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "79718086-d9c6-4644-acb6-459273831fce"
+              },
+              "source": {
+                "id": "1e737dad-3e3c-41ac-802c-e730d04c323c"
+              }
+            }
+          ],
+          "parentRequired": false
         }
       ],
       "indexes": [
@@ -567,6 +587,15 @@
           "keyColumns": [
             {
               "columnId": "2357ce93-1f8c-4647-abcd-ebcff698b272"
+            }
+          ]
+        },
+        {
+          "id": "b7416ea1-2d80-4b80-9ace-5c0f1854a56f",
+          "name": "IX_Social Comments_IdFuente",
+          "keyColumns": [
+            {
+              "columnId": "1e737dad-3e3c-41ac-802c-e730d04c323c"
             }
           ]
         }
@@ -716,8 +745,8 @@
       "id": "eac2c0c0-6966-44cb-bd20-a157dde7ef1d",
       "name": "Tipo de fuente",
       "position": {
-        "x": 1167.3476621461998,
-        "y": -314.02862000705306,
+        "x": 1189.347909464123,
+        "y": -311.02858628188176,
         "w": 200,
         "h": 80
       },
