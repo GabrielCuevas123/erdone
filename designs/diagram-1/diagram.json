@@ -456,7 +456,7 @@
         {
           "id": "da3d43f3-b11f-433a-9686-f512bded0544",
           "sequence": 2,
-          "key": null,
+          "key": "FK",
           "property": "IdCliente",
           "type": "INTEGER",
           "length": null,
@@ -467,7 +467,7 @@
         {
           "id": "2357ce93-1f8c-4647-abcd-ebcff698b272",
           "sequence": 3,
-          "key": null,
+          "key": "FK",
           "property": "IdProducto",
           "type": "INTEGER",
           "length": null,
@@ -509,7 +509,68 @@
           "isNotNull": true
         }
       ],
-      "relationships": []
+      "relationships": [
+        {
+          "id": "7cd5937e-9a09-4761-a06e-10f455841723",
+          "source": {
+            "id": "da3d43f3-b11f-433a-9686-f512bded0544"
+          },
+          "reference": {
+            "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "40b12a4d-b441-4b3b-ba9f-c75b76508b24"
+              },
+              "source": {
+                "id": "da3d43f3-b11f-433a-9686-f512bded0544"
+              }
+            }
+          ],
+          "parentRequired": false
+        },
+        {
+          "id": "9541f43b-f48f-496f-bae7-c0e1a8529ec0",
+          "source": {
+            "id": "2357ce93-1f8c-4647-abcd-ebcff698b272"
+          },
+          "reference": {
+            "id": "88b5a151-884b-488a-8467-387e7b4c072d"
+          },
+          "columnPairs": [
+            {
+              "reference": {
+                "id": "88b5a151-884b-488a-8467-387e7b4c072d"
+              },
+              "source": {
+                "id": "2357ce93-1f8c-4647-abcd-ebcff698b272"
+              }
+            }
+          ],
+          "parentRequired": false
+        }
+      ],
+      "indexes": [
+        {
+          "id": "de06d2b9-c729-4456-a09f-2fcaa778bfbd",
+          "name": "IX_Social Comments_IdCliente",
+          "keyColumns": [
+            {
+              "columnId": "da3d43f3-b11f-433a-9686-f512bded0544"
+            }
+          ]
+        },
+        {
+          "id": "ecfda421-549b-4feb-a1e7-9dfed0ae3812",
+          "name": "IX_Social Comments_IdProducto",
+          "keyColumns": [
+            {
+              "columnId": "2357ce93-1f8c-4647-abcd-ebcff698b272"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "ca9ff365-a4f0-4907-86dc-ed1d0bcf20d2",
